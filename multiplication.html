@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Multiplication</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Multiplication</h1>
+    <form>
+      <label for="input1">Input 1:</label><br>
+      <input type="text" id="input1" name="input1"><br>
+      <label for="input2">Input 2:</label><br>
+      <input type="text" id="input2" name="input2"><br><br>
+      <button type="button" id="calculate">Calculate</button>
+      <button type="reset">Clear</button>
+      <br><br>
+      <button type="button" onclick="window.location.href='index.html'">Back</button>
+      <br><br>
+      <label for="result">Result:</label><br>
+      <input type="text" id="result" name="result" disabled>
+    </form> 
+    <script>
+      // Add JavaScript code to perform the calculation and display the result
+      document.getElementById("calculate").onclick = function() {
+        var input1 = parseFloat(document.getElementById("input1").value);
+        var input2 = parseFloat(document.getElementById("input2").value);
+        var result = input1 * input2;
+        document.getElementById("result").value = result;
+      }
+    </script>
+  </body>
+</html>
