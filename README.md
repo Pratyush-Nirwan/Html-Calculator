@@ -1,4 +1,4 @@
-# Math Operations Web Application
+# Html Calculator
 
 This is a simple web application for performing basic math operations: addition, subtraction, multiplication, and division. It provides a user-friendly interface to enter two numbers and get the result of the selected operation.
 
