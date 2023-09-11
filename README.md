@@ -27,8 +27,7 @@ This is a simple web application for performing basic math operations: addition,
 2. Navigate to the project folder:
 
     ```bash
-    Copy code
-    cd math-operations
+    cd Html-Calculator
     ```
 3. Open the "index.html" file.
 
